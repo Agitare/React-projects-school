@@ -1,19 +1,20 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, NavLink, BrowserRouter } from "react-router-dom";
 import Home from "./Home";
 import Content from "./Content";
 import Birds from "./Birds";
 import Login from "./Login";
+import Regin from "./Regin";
 
 class Main extends Component {
     render(){
         return (
-            <HashRouter>
+            <BrowserRouter>
                 <div>
                     <div className="topbar">
                         <h1>Lintubongarit</h1>
-                        <li><NavLink to="/Login">Kirjaudu sisään</NavLink></li>
-                        <li><NavLink to="/Login">Rekisteröidy</NavLink></li>
+                        <li className="login"><NavLink to="/Login">Kirjaudu sisään</NavLink></li>
+                        <li className="login"><NavLink to="/Regin">Rekisteröidy</NavLink></li>
                     </div>
 
                     <ul className="navbar">
@@ -26,9 +27,10 @@ class Main extends Component {
                         <Route path="/Content" component={Content}/>
                         <Route path="/Birds" component={Birds}/>
                         <Route path="/Login" component={Login}/>
+                        <Route path="/Regin" component={Regin}/>
                     </div>
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }

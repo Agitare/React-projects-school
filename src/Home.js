@@ -4,8 +4,8 @@ class Home extends Component {
     render() {
         return(
             <div>
-                <h2>MOikka</h2>
-                <p>teksitekstkwi</p>
+                <h2>Pääsivu</h2>
+                <p>Tämä on lintubongari sivusto.</p>
             </div>
         )
     }

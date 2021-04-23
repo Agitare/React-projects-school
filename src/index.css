@@ -24,3 +24,16 @@ html {
 .content {
     background-color: rgb(240, 205, 163);
 }
+
+.home {
+    background-color: rgb(240, 205, 163);
+}
+
+.login{
+    list-style: none;
+    color: blue;
+}
+
+.login:visited{
+    color: blue;
+}
