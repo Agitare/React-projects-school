@@ -1,0 +1,26 @@
+html {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar {
+    background-color: rgb(197, 185, 166);
+    height: 48px;
+    padding-top: 25px;
+    padding-right: 45px;
+    padding-bottom: 16px;
+    padding-left: 45px;
+    text-align: right;
+}
+
+.navbar {
+    background-color: rgb(107, 77, 39);
+    float: inline-end;  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: rgb(240, 205, 163);
+}
